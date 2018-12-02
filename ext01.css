@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap{
+	background: rgba(27,26,26,1.00);
+	width: auto;
+	height: auto;
+	margin:10px auto;
+	
+}
+.wrap .header{
+	background: rgba(99,111,240,1.00);
+	
+	padding: 10px 10px;
+}
+.wrap .menu{
+	background: rgba(241,236,102,1.00);
+}
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: rgba(188,100,239,1.00);
+	overflow: hidden;
+}
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+.badan{
+	height: 450px;
+}
+.clear{
+	clear: both;
+}
+.wrap .badan .kiri{
+	background: rgba(95,237,151,0.79);
+	float: left;
+	width:15%;
+	height: 100%;
+}
+.wrap .badan .kanan{
+	background: rgba(95,237,151,0.79);
+	width:20%;
+	float: right;
+	height: 100%;
+}
+.wrap .badan .content{
+	background: rgba(233,244,155,1.00);
+	float: left;
+	width: 65%;
+	height: 100%;
+	text-align: justify;
+	font-size: 15px;
+}
+.wrap .footer{
+	width: 100%;
+	padding: 8px;
+	text-align: center;
+	font-size: 10px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: rgba(248,244,244,1.00);
+}
+
+
